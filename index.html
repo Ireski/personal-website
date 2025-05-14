@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link
+      rel="shortcut icon"
+      href="images/Untitled design (12).png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Free CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  </head>
+  <body>
+    <div class="all-back">
+      <div class="yellow-back" id="home"></div>
+      <div class="black-back"></div>
+      <div class="content">
+        <img src="images/FB_IMG_1641530287146.jpg" alt="" id="me" />
+        <div class="logo-box">
+          <img src="images/T-removebg-preview2.png" alt="" id="logo" />
+        </div>
+        <div class="content-text">
+          <h1><span>I'M IREDIA ERHABOR.</span><br />WEB DEVELOPER</h1>
+          <p class="content-p">
+            I'm a Nigerian based web designer & front‑end developer focused on
+            crafting clean & user‑friendly experiences, I am passionate about
+            building excellent software that improves the lives of those around
+            me.
+          </p>
+          <a href="#about" id="hero-about">
+            <button class="hover-slide">
+              <p>MORE ABOUT ME</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="omo">
+        <div class="navs">
+          <a href="#home">
+            <div class="nav-link">
+              <p>Home</p>
+              <i class="bx bxs-home" id="active" href="#home"></i>
+            </div>
+          </a>
+        </div>
+        <div class="navs">
+          <a href="#about">
+            <div class="nav-link">
+              <p>About</p>
+              <i class="bx bxs-user" href="#about"></i>
+            </div>
+          </a>
+        </div>
+        <div class="navs">
+          <a href="#portfolio">
+            <div class="nav-link">
+              <p>Portfolio</p>
+              <i class="bx bxs-briefcase" href="#portfolio"></i>
+            </div>
+          </a>
+        </div>
+        <div class="navs">
+          <a href="#contact">
+            <div class="nav-link">
+              <p>Contact</p>
+              <i class="bx bxs-envelope-open" href="#contact"></i>
+            </div>
+          </a>
+        </div>
+        <div class="navs">
+          <a href="https://api.whatsapp.com/send/?phone=2349068351922">
+            <div class="nav-link">
+              <p>Chat</p>
+              <i class="bx bxl-whatsapp-square"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="omo2">
+        <a href="#home"><i class="bx bxs-home nav" id="active" href="#home"></i></a>
+        <a href="#about"><i class="bx bxs-user nav" href="#about"></i></a>
+        <a href="#portfolio"><i class="bx bxs-briefcase nav" href="#portfolio"></i></a>
+        <a href="#contact"><i class="bx bxs-envelope-open nav" href="#contact"></i></a>
+        <!-- <a href="https://api.whatsapp.com/send/?phone=2349068351922"><i class="bx bxl-whatsapp-square"></i></a> -->
+      </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="about sect" id="about">
+      <div class="contact-heading">
+        <h1>RESUME</h1>
+        <h2>ABOUT <span>ME</span></h2>
+      </div>
+      <div class="about-boxes">
+        <!-- One -->
+        <div class="about-box1">
+          <h2>PERSONAL INFOS</h2>
+          <div class="personal">
+            <div class="personal-info">
+              <li><span>First Name: </span>Iredia</li>
+              <li><span>Age: </span>23</li>
+              <li id="avail"><span>Freelance: </span>Available</li>
+              <li><span>Phone: </span>+234 906 835 1922</li>
+              <li><span>LinkedIn: </span><a href="#">@irediaerhabor</a></li>
+            </div>
+            <div class="personal-info">
+              <li><span>Last Name: </span>Erhabor</li>
+              <li><span>Nationality: </span>Nigeria</li>
+              <li><span>Address: </span>Port Harcourt, Rivers State</li>
+              <li><span>E-mail: </span>irediaerhabor75@gmail.com</li>
+              <li><span>Language: </span>English</li>
+            </div>
+          </div>
+          <a href="#home" class="hey" onclick="downloadCV()">
+            <button class="hover-slide">
+              <p>DOWNLOAD CV</p>
+              <i class="bx bx-download"></i>
+            </button>
+          </a>
+        </div>
+        <!-- Two -->
+        <div class="about-box2">
+          <div class="about-grid">
+            <h1>4<sup>+</sup></h1>
+            <p class="awa">YEARS OF EXPERIENCE</p>
+          </div>
+          <div class="about-grid">
+            <h1>50<sup>+</sup></h1>
+            <p class="awa">COMPLETED PROJECTS</p>
+          </div>
+          <div class="about-grid">
+            <h1>72<sup>+</sup></h1>
+            <p class="awa">HAPPY CUSTOMERS</p>
+          </div>
+          <div class="about-grid">
+            <h1>1<sup>+</sup></h1>
+            <p class="awa">AWARD WON</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skill -->
+    <div class="skills">
+      <h1>MY SKILLS</h1>
+      <div class="skills-grid">
+        <div class="progress-circle">
+          <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <circle class="background" cx="18" cy="18" r="16"></circle>
+            <circle
+              class="progress"
+              id="progress1"
+              cx="18"
+              cy="18"
+              r="16"
+            ></circle>
+            <text
+              x="18"
+              y="21"
+              text-anchor="middle"
+              id="text-percentage1"
+              class="percentage"
+            >
+              87
+            </text>
+          </svg>
+          <p>HTML</p>
+        </div>
+        <div class="progress-circle">
+          <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <circle class="background" cx="18" cy="18" r="16"></circle>
+            <circle
+              class="progress"
+              id="progress2"
+              cx="18"
+              cy="18"
+              r="16"
+            ></circle>
+            <text
+              x="18"
+              y="21"
+              text-anchor="middle"
+              id="text-percentage2"
+              class="percentage"
+            >
+              34
+            </text>
+          </svg>
+          <p>CSS</p>
+        </div>
+        <div class="progress-circle">
+          <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <circle class="background" cx="18" cy="18" r="16"></circle>
+            <circle
+              class="progress"
+              id="progress3"
+              cx="18"
+              cy="18"
+              r="16"
+            ></circle>
+            <text
+              x="18"
+              y="21"
+              text-anchor="middle"
+              id="text-percentage3"
+              class="percentage"
+            >
+              34
+            </text>
+          </svg>
+          <p>JavaScript</p>
+        </div>
+        <div class="progress-circle">
+          <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <circle class="background" cx="18" cy="18" r="16"></circle>
+            <circle
+              class="progress"
+              id="progress4"
+              cx="18"
+              cy="18"
+              r="16"
+            ></circle>
+            <text
+              x="18"
+              y="21"
+              text-anchor="middle"
+              id="text-percentage4"
+              class="percentage"
+            >
+              34
+            </text>
+          </svg>
+          <p>Wordpress</p>
+        </div>
+        <div class="progress-circle">
+          <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <circle class="background" cx="18" cy="18" r="16"></circle>
+            <circle
+              class="progress"
+              id="progress5"
+              cx="18"
+              cy="18"
+              r="16"
+            ></circle>
+            <text
+              x="18"
+              y="21"
+              text-anchor="middle"
+              id="text-percentage5"
+              class="percentage"
+            >
+              34
+            </text>
+          </svg>
+          <p>React</p>
+        </div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="experience">
+      <h1>EXPERIENCE & EDUCATION</h1>
+      <div class="both">
+        <div class="all-experiences">
+          <div class="expert">
+            <i class="bx bxs-briefcase"></i>
+            <span>2023-PRESENT</span>
+            <h3>
+              OPERATION MANAGER <span class="work">- SKILLBOOSTAFRICA</span>
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              aperiam possimus hic!
+            </p>
+          </div>
+          <div class="expert">
+            <i class="bx bxs-briefcase"></i>
+            <span>2023-PRESENT</span>
+            <h3>WEB DEVELOPER <span class="work">- SKILLBOOSTAFRICA</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              aperiam possimus hic!
+            </p>
+          </div>
+          <div class="expert">
+            <i class="bx bxs-briefcase"></i>
+            <span>2021-PRESENT</span>
+            <h3>WEB DESIGNER <span class="work">- SKILLBOOSTAFRICA</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              aperiam possimus hic!
+            </p>
+          </div>
+        </div>
+        <div class="all-education">
+          <div class="expert">
+            <i class="bx bxs-briefcase"></i>
+            <span>2021-PRESENT</span>
+            <h3>BACHELOR DEGREE <span class="work">- AAU, EKPOMA</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              aperiam possimus hic!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div class="portfolio" id="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="port-filter">
+          <button href="#" class="pbtn active" data-filter="all">
+            <p>ALL</p>
+          </button>
+          <button href="#" class="pbtn" data-filter="webdesign">
+            <p>WEB DESIGN</p>
+          </button>
+          <button href="#" class="pbtn" data-filter="frontend">
+            <p>FRONT-END DEV</p>
+          </button>
+        </div>
+        <div class="portfolios">
+          <a href="https://skillmatch-main.vercel.app/" class="port frontend" target="_blank">
+            <div class="item">
+              <h4>SkillMatch</h4>
+          </div>
+          </a>
+          <a href="https://terraverdehomes.com/" class="port webdesign" target="_blank">
+            <div class="item">
+              <h4>Terraverdehomes</h4>
+          </div>
+          </a>
+          <a href="https://eastkonsult.com/" class="port webdesign" target="_blank">
+            <div class="item">
+              <h4>Eastkonsult</h4>
+          </div>
+          </a>
+          <a href="https://skillmatch-main.vercel.app/" class="port frontend" target="_blank">
+            <div class="item">
+              <h4>Nike</h4>
+          </div>
+          </a>
+          <a href="https://skillmatch-main.vercel.app/" class="port webdesign" target="_blank">
+            <div class="item">
+              <h4>Starpaint</h4>
+          </div>
+          </a>
+          <a href="https://skillmatch-main.vercel.app/" class="port webdesign" target="_blank">
+            <div class="item">
+              <h4>SkillMatch</h4>
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <div class="contact-heading">
+          <h1>CONTACT</h1>
+        <h2>GET IN <span>TOUCH</span></h2>
+        </div>
+        <div class="contact-box">
+          <div class="contact-box-left">
+            <h4>DON'T BE SHY !</h4>
+          <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+          </p>
+          <div class="contact-icon">
+            <i class='bx bx-map-alt' ></i>
+            <div class="contact-icon-text">
+              <h6>ADDRESS POINT</h6>
+              <p>No 5 Eternity Avenue, Ada-George, Port Harcourt</p>
+            </div>
+          </div>
+          <div class="contact-icon">
+            <i class="bx bxs-envelope-open"></i>
+            <div class="contact-icon-text">
+              <h6>MAIL ME</h6>
+              <p>irediaerhabor75@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-icon">
+            <i class='bx bxs-phone-call'></i>
+            <div class="contact-icon-text">
+              <h6>CALL ME</h6>
+              <p>+234 906 835 1922</p>
+            </div>
+          </div>
+          <div class="social-icon">
+            <a href="https://x.com/ireski757"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://web.facebook.com/erhabor.iredia.12/"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/iredia-erhabor-28b810295/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=2349068351922" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+          </div>
+          </div>
+
+          <form action="#" class="contact-box-right"  onsubmit="sendToWhatsApp(event)">
+            <input type="text" name="fullname" id="name" placeholder="YOUR NAME" required>
+            <input type="email" name="email" id="email" placeholder="YOUR EMAIL" required>
+            <input type="text" name="subject" id="subject" placeholder="YOUR SUBJECT" required><br>
+            <textarea name="message" id="message" placeholder="YOUR MESSAGE" required></textarea><br>
+            <a href="#" type="submit">
+              <button class="hover-slide">
+                <p>SEND MESSAGE</p>
+                <i class="bx bx-right-arrow-alt"></i>
+              </button>
+            </a>
+          </form>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- <div class="line"></div>
+      <img src="images/young-man.jpg" height="100px" alt="" class="rotate" />
+      <div class="box">
+        <p>Hello</p>
+      </div>
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
